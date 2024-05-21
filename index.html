@@ -3,25 +3,14 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Portofolio</title>
+	<title>Portofolio Tegar</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="" />
 	<meta name="keywords" content="" />
 	<meta name="author" content="" />
 
-  <!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="shortcut icon" href="images/about.jpg">
 
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700" rel="stylesheet">
@@ -82,42 +71,30 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 		<div id="colorlib-main">
 			<section id="colorlib-hero" class="js-fullheight" data-section="home">
 				<div class="flexslider js-fullheight">
-					<ul class="slides">
-				   	<li style="background-image: url(images/img_bg_1.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner js-fullheight">
-					   					<div class="desc">
-						   					<h1>Hi! <br>I'm Tegar</h1>
-						   					<h2>I'm 21 years old, experienced in Web Developing Language, especially CSS and HTML.</a></h2>
-											   <p><a class="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1EJHhZoqy5-OmfuxlyRR3CKk6apnNm4VH/view?usp=sharing" target="_blank">Download CV <i class="icon-download4"></i></a></p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
-				   	<li style="background-image: url(images/img_bg_2.jpg);">
-				   		<div class="overlay"></div>
-				   		<div class="container-fluid">
-				   			<div class="row">
-					   			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
-					   				<div class="slider-text-inner">
-					   					<div class="desc">
-						   					<h1>I am <br>a College Student</h1>
-												<h2>I'm 21 years old, experienced in Web Developing Language, especially CSS and HTML.</a></h2>
+				  	<ul class="slides">
+					<li style="background-image: url(images/img_bg_1.jpg);">
+					  	<div class="overlay"></div>
+					  		<div class="container-fluid">
+								<div class="row">
+						  			<div class="col-md-6 col-md-offset-3 col-md-pull-3 col-sm-12 col-xs-12 js-fullheight slider-text">
+										<div class="slider-text-inner js-fullheight">
+							  				<div class="desc">
+												<h1 style="font-size: 48px;">Hello, I'm<br>
+													<span class="text-secondary" style="white-space: nowrap;">M. Tegar Bayu Al-Fasya</span>
+												</h1>
+												<h2 style="font-size: 28px;">I'm
+													<span id="element" class="text-secondary"></span>
+												</h2>
 												<p><a class="btn btn-primary btn-learn" href="https://drive.google.com/file/d/1EJHhZoqy5-OmfuxlyRR3CKk6apnNm4VH/view?usp=sharing" target="_blank">Download CV <i class="icon-download4"></i></a></p>
-											</div>
-					   				</div>
-					   			</div>
-					   		</div>
-				   		</div>
-				   	</li>
+							  			</div>
+									</div>
+						  		</div>
+							</div>
+					  </div>
+					</li>
 				  	</ul>
-			  	</div>
-			</section>
+				</div>
+			  </section>
 
 			<section class="colorlib-about" data-section="about">
 				<div class="colorlib-narrow-content">
@@ -406,6 +383,22 @@ Copyright <script>document.write(new Date().getFullYear());</script> All rights 
 	
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
+
+	<script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Graphic Designer",
+          "UI Designer",
+          "Website Developer",
+		  "Database Developer",
+          "IT Enthusiast",
+          "College Student",
+        ],
+        typeSpeed: 100,
+        loop: true,
+      });
+    </script>
 
 	</body>
 </html>
